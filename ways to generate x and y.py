@@ -30,7 +30,7 @@ print(d)
 # x = np.random.unifrom(low, high, size), random floating-point numbers
 # mean: Can be any float or integer. Does not have to be 0.
 # great for creating synthetic continous data
-e = np.random.normal(1, 10, 1000)
+e = np.random.uniform(1, 10, 1000)
 print(e)
 
 
@@ -58,3 +58,4 @@ print(type(z))
 print(type(d))
 print(type(e))
 print(type(c))
+
